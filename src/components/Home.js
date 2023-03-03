@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 
 function Home() {
   return (
-    <Box marginTop={3}>
+    <Box marginTop={3} id='home'>
       <Box>
         <Grid container spacing={0}>
           <Grid item md={4}>

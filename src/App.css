@@ -13,6 +13,9 @@ body{
   width: 100%;
   width: 546px;
 }
+.img-small{
+  width: 130px;
+}
 .full{
   height: 100%;
 }

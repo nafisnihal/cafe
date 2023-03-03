@@ -124,7 +124,7 @@ function About() {
             <Typography
               variant="body2"
               marginTop={2}
-              sx={{ lineHeight: "20px" }}
+              sx={{ lineHeight: "22px" }}
             >
               Every cup is brewed with freshly roasted single origin beans. 100%
               premium Arabica blend is used to ensure the exquisite taste of
