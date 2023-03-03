@@ -30,6 +30,9 @@ function Contact() {
                 sx={{ color: "#ffffff", fontSize: "100px" }}
               ></ArrowCircleUpOutlinedIcon>
             </Button>
+            <Typography sx={{ textAlign: "center" }} variant="body 2">
+              Go To Top
+            </Typography>
           </Grid>
           <Grid sx={{ margin: "auto 0" }} item md={5.5}>
             <hr />
@@ -37,6 +40,7 @@ function Contact() {
         </Grid>
       </Box>
       <Box
+        marginTop={2}
         marginX={8}
         sx={{
           display: "flex",
@@ -51,7 +55,7 @@ function Contact() {
           ></img>
         </Box>
         <Box sx={{ width: "775px" }}>
-          <Typography>
+          <Typography variant="body2">
             Freshly welcomes all its customers to come and create special
             memories. Our vision is to make our customers experience our quality
             brew and create special memories.
@@ -64,11 +68,25 @@ function Contact() {
             alignItems: "center",
           }}
         >
-          <Facebook></Facebook>
-          <Instagram></Instagram>
-          <Twitter></Twitter>
-          <Pinterest></Pinterest>
-          <YouTube></YouTube>
+          <a href="http://www.facebook.com/nafisnihal12">
+            <Facebook sx={{ color: "#ffffff", marginRight: "10px" }}></Facebook>
+          </a>
+          <a href="http://www.instagram.com">
+            <Instagram
+              sx={{ color: "#ffffff", marginRight: "10px" }}
+            ></Instagram>
+          </a>
+          <a href="http://www.twitter.com">
+            <Twitter sx={{ color: "#ffffff", marginRight: "10px" }}></Twitter>
+          </a>
+          <a href="http://www.pinterest.com">
+            <Pinterest
+              sx={{ color: "#ffffff", marginRight: "10px" }}
+            ></Pinterest>
+          </a>
+          <a href="http://www.youtube.com">
+            <YouTube sx={{ color: "#ffffff", marginRight: "10px" }}></YouTube>
+          </a>
         </Box>
       </Box>
       <Box
@@ -88,7 +106,9 @@ function Contact() {
           }}
         >
           <LocalPhone></LocalPhone>
-          <Typography variant="body2">+1234567890</Typography>
+          <Typography marginLeft={1} variant="body2">
+            +1234567890
+          </Typography>
         </Box>
         <Box
           sx={{
@@ -98,7 +118,9 @@ function Contact() {
           }}
         >
           <AddLocation></AddLocation>
-          <Typography variant="body2">Bashundhara R/A, Dhaka</Typography>
+          <Typography marginLeft={1} variant="body2">
+            Bashundhara R/A, Dhaka
+          </Typography>
         </Box>
         <Box
           sx={{
@@ -108,7 +130,11 @@ function Contact() {
           }}
         >
           <EmailOutlined></EmailOutlined>
-          <Typography variant="body2">freshlycafe@support.com</Typography>
+          <a className="navs" href="mailto:freshlycafe@support.com">
+            <Typography marginLeft={1} variant="body2">
+              freshlycafe@support.com
+            </Typography>
+          </a>
         </Box>
       </Box>
     </Box>

@@ -23,8 +23,7 @@ function Home() {
                 <Typography
                   marginY={3}
                   className="inverted"
-                  variant="subtitle1"
-                  gutterBottom
+                  variant="body2"
                 >
                   Everyday in Arabika is like the colourful seasons of
                   Bangladesh. Arabika welcomes all its customers to come and

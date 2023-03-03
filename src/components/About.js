@@ -22,21 +22,21 @@ function About() {
             >
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">Coffee Shop</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
               </Box>
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">Coffee Machine</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
               </Box>
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">High Quality</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
@@ -65,21 +65,21 @@ function About() {
             >
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">The Perfect Cup</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
               </Box>
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">Barista Coffee</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
               </Box>
               <Box sx={{ width: "200px" }}>
                 <Typography variant="h5">Supreme Beans</Typography>
-                <Typography marginTop={2} variant="subtitle1">
+                <Typography marginTop={2} variant="body2">
                   Our Coffees are carefully selected for quality, flavor and
                   social impact.
                 </Typography>
