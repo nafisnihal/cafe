@@ -50,7 +50,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 function Moments() {
   return (
     <Box marginX={8}>
-      <Typography marginBottom={6} variant="h4" sx={{ textAlign: "center" }}>
+      <Typography marginBottom={6} variant="h3" sx={{ textAlign: "center" }}>
         Coffee Moments
       </Typography>
       <ImageList variant="quilted" cols={3}>
