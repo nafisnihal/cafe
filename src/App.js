@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Products from "./components/Products";
 import Blog from "./components/Blog";
+import Moments from "./components/Moments";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Menu />
       <Products />
       <Blog />
+      <Moments />
+      <Contact />
     </BrowserRouter>
   );
 }
