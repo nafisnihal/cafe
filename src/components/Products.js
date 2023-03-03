@@ -1,12 +1,18 @@
-import { Box, Button, Grid, Paper, Rating, Typography } from "@mui/material";
-import React from "react";
+import React from 'react'
+import { Box, Button, Grid, Paper, Rating, Typography } from '@mui/material';
 
-function Menu() {
+function Products() {
   return (
-    <Box marginTop={12} marginBottom={10} marginX={8} id="menu">
-      <Box sx={{ textAlign: "center" }}>
-        <Typography marginBottom={4} variant="h3">
-          To Discover More Look Into Our Coffee Menu
+    <Box marginTop={11} marginBottom={8} marginX={8} id="products">
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Typography variant="h3">
+          Our Popular Products
         </Typography>
         <Button
           sx={{ color: "#ffffff", borderColor: "#ffffff" }}
@@ -15,9 +21,9 @@ function Menu() {
           See All
         </Button>
       </Box>
-      <Box marginTop={9}>
+      <Box marginTop={6}>
         <Grid container spacing={3}>
-          <Grid item md={3}>
+          <Grid item md={4}>
             <Paper
               sx={{
                 backgroundColor: "#0E0E0E",
@@ -31,18 +37,18 @@ function Menu() {
             >
               <img
                 className="img-small"
-                src="https://i.ibb.co/sb4gMbR/cup-1.png"
-                alt="cup-1"
+                src="https://i.ibb.co/FspJMHq/packet-1.png"
+                alt="packet-1"
               ></img>
               <Typography marginTop={3} variant="h4" sx={{ color: "#ffffff" }}>
-                Americano
+                Italian Coffee Beans
               </Typography>
               <Typography
                 marginTop={1}
                 marginBottom={2}
                 sx={{ color: "#A35715" }}
               >
-                150.00৳
+                1085.00৳
               </Typography>
               <Rating
                 name="read-only"
@@ -64,7 +70,7 @@ function Menu() {
               </Button>
             </Paper>
           </Grid>
-          <Grid item md={3}>
+          <Grid item md={4}>
             <Paper
               sx={{
                 backgroundColor: "#0E0E0E",
@@ -78,18 +84,18 @@ function Menu() {
             >
               <img
                 className="img-small"
-                src="https://i.ibb.co/526JLhY/cup-4.png"
-                alt="cup-2"
+                src="https://i.ibb.co/r62smWT/packet-2.png"
+                alt="packet-2"
               ></img>
               <Typography marginTop={3} variant="h4" sx={{ color: "#ffffff" }}>
-                Babyccino
+                Brazil Coffee Beans
               </Typography>
               <Typography
                 marginTop={1}
                 marginBottom={2}
                 sx={{ color: "#A35715" }}
               >
-                100.00৳
+                1550.00৳
               </Typography>
               <Rating
                 name="read-only"
@@ -111,7 +117,7 @@ function Menu() {
               </Button>
             </Paper>
           </Grid>
-          <Grid item md={3}>
+          <Grid item md={4}>
             <Paper
               sx={{
                 backgroundColor: "#0E0E0E",
@@ -125,65 +131,18 @@ function Menu() {
             >
               <img
                 className="img-small"
-                src="https://i.ibb.co/99SWjpR/cup-3.png"
-                alt="cup-3"
+                src="https://i.ibb.co/zHBzvwZ/packet-3.png"
+                alt="packet-3"
               ></img>
               <Typography marginTop={3} variant="h4" sx={{ color: "#ffffff" }}>
-                Cost Rica
+                American Coffee Beans
               </Typography>
               <Typography
                 marginTop={1}
                 marginBottom={2}
                 sx={{ color: "#A35715" }}
               >
-                250.00৳
-              </Typography>
-              <Rating
-                name="read-only"
-                value={5}
-                readOnly
-                size="small"
-                sx={{ color: "#A35715" }}
-              />
-              <Button
-                sx={{
-                  color: "#ffffff",
-                  borderColor: "#ffffff",
-                  marginTop: "24px",
-                }}
-                variant="outlined"
-                size="small"
-              >
-                ADD to Cart
-              </Button>
-            </Paper>
-          </Grid>
-          <Grid item md={3}>
-            <Paper
-              sx={{
-                backgroundColor: "#0E0E0E",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                padding: "40px 0",
-              }}
-              elevation={0}
-            >
-              <img
-                className="img-small"
-                src="https://i.ibb.co/gWW43Xs/cup-2.png"
-                alt="cup-4"
-              ></img>
-              <Typography marginTop={3} variant="h4" sx={{ color: "#ffffff" }}>
-                Ethophian
-              </Typography>
-              <Typography
-                marginTop={1}
-                marginBottom={2}
-                sx={{ color: "#A35715" }}
-              >
-                320.00৳
+                1085.00৳
               </Typography>
               <Rating
                 name="read-only"
@@ -211,4 +170,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Products

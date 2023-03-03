@@ -4,14 +4,18 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
+import Products from "./components/Products";
+import Blog from "./components/Blog";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Home />
-      <About/>
+      <About />
       <Menu />
+      <Products />
+      <Blog />
     </BrowserRouter>
   );
 }

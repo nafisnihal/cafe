@@ -25,7 +25,7 @@ function Header() {
           <Link className="navs" smooth to="/#about">
             About Us
           </Link>
-          <Link className="navs" smooth to="/#product">
+          <Link className="navs" smooth to="/#products">
             Our Product
           </Link>
           <Link className="navs" smooth to="/#menu">
